@@ -66,6 +66,7 @@ void prefixCalc(int ipv6_bin[128], int original_prefix, int new_prefix){
 
     printf("\n[ Sub-rede %d ]\n", current_network);
     printf("Primeiro IP (Rede)..:\n");
+    binToHex(rede_bin);
     printf("IPV6 binario: ");
 
     for(int i=0; i<128; i++){
